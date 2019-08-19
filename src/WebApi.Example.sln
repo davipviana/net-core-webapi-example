@@ -5,13 +5,17 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example", "WebApi.Example\WebApi.Example.csproj", "{1977F933-628F-412C-B907-8F8CD5AE06A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.DependencyInjection", "WebApi.Example.DependencyInjection\WebApi.Example.DependencyInjection.csproj", "{D293544B-E1DE-4F9D-BF50-BAEED1399F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.DependencyInjection", "WebApi.Example.DependencyInjection\WebApi.Example.DependencyInjection.csproj", "{D293544B-E1DE-4F9D-BF50-BAEED1399F7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Interface.Repository", "WebApi.Example.Interface.Repository\WebApi.Example.Interface.Repository.csproj", "{69A2EB8C-E85A-4DAB-BDB4-81D3BCE68F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Interface.Repository", "WebApi.Example.Interface.Repository\WebApi.Example.Interface.Repository.csproj", "{69A2EB8C-E85A-4DAB-BDB4-81D3BCE68F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Domain", "WebApi.Example.Domain\WebApi.Example.Domain.csproj", "{AB0F2CC6-DF76-4A89-AF0A-D5AE672C891E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Domain", "WebApi.Example.Domain\WebApi.Example.Domain.csproj", "{AB0F2CC6-DF76-4A89-AF0A-D5AE672C891E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Repository", "WebApi.Example.Repository\WebApi.Example.Repository.csproj", "{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Repository", "WebApi.Example.Repository\WebApi.Example.Repository.csproj", "{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Interface.Business", "WebApi.Example.Interface.Business\WebApi.Example.Interface.Business.csproj", "{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Business", "WebApi.Example.Business\WebApi.Example.Business.csproj", "{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

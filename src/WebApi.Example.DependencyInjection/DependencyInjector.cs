@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
+using WebApi.Example.Business;
+using WebApi.Example.Interface.Business;
 using WebApi.Example.Interface.Repository;
 using WebApi.Example.Repository;
 
@@ -9,6 +11,8 @@ namespace WebApi.Example.DependencyInjection
     {
         public static void Configure(IServiceCollection services)
         {
+            services.AddSingleton<IPersonBusiness, PersonBusiness>();
+
             services.AddSingleton<IPersonRepository, PersonRepository>();
         }
     }

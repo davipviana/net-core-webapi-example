@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.Example.Interface.Business\WebApi.Example.Interface.Business.csproj" />
+    <ProjectReference Include="..\WebApi.Example.Interface.Repository\WebApi.Example.Interface.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
