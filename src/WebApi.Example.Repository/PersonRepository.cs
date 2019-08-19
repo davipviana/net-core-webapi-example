@@ -9,27 +9,29 @@ namespace WebApi.Example.Repository
     {
         public Person Create(Person person)
         {
-            throw new NotImplementedException();
+            return person;
         }
 
         public void Delete(long id)
         {
-            throw new NotImplementedException();
         }
 
         public Person GetById(long id)
         {
-            throw new NotImplementedException();
+            return new Person
+            {
+                Id = id
+            };
         }
 
         public IEnumerable<Person> ListAll()
         {
-            throw new NotImplementedException();
+            return new List<Person>();
         }
 
         public Person Update(long id, Person person)
         {
-            throw new NotImplementedException();
+            return person;
         }
     }
 }
