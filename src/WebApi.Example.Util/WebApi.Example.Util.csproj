@@ -8,9 +8,4 @@
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\WebApi.Example.Interface.Repository\WebApi.Example.Interface.Repository.csproj" />
-    <ProjectReference Include="..\WebApi.Example.Util\WebApi.Example.Util.csproj" />
-  </ItemGroup>
-
 </Project>

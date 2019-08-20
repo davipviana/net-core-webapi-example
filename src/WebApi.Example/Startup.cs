@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Autofac.Extras.DynamicProxy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using System;
 using WebApi.Example.DependencyInjection;
+using WebApi.Example.Interface.Repository;
+using WebApi.Example.Repository;
+using WebApi.Example.Util;
 
 namespace WebApi.Example
 {
@@ -24,11 +24,22 @@ namespace WebApi.Example
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             DependencyInjector.Configure(services);
+
+            var b = new ContainerBuilder();
+            b.Register(i => new MemoryCaching());
+            b.RegisterType<PersonRepository>()
+                .As<IPersonRepository>()
+                .EnableInterfaceInterceptors();
+
+            b.Populate(services);
+            var container = b.Build();
+
+            return new AutofacServiceProvider(container);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

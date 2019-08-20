@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Autofac.Extras.DynamicProxy;
+using System;
 using System.Collections.Generic;
 using WebApi.Example.Domain.Entity;
 using WebApi.Example.Interface.Repository;
+using WebApi.Example.Util;
 
 namespace WebApi.Example.Repository
 {
-    public class PersonRepository : IPersonRepository
+    public class PersonRepository : BaseRepository, IPersonRepository
     {
         public Person Create(Person person)
         {
@@ -15,7 +17,7 @@ namespace WebApi.Example.Repository
         public void Delete(long id)
         {
         }
-
+        
         public Person GetById(long id)
         {
             return new Person
@@ -23,7 +25,8 @@ namespace WebApi.Example.Repository
                 Id = id
             };
         }
-
+        
+        [CacheMethod]
         public IEnumerable<Person> ListAll()
         {
             return new List<Person>();

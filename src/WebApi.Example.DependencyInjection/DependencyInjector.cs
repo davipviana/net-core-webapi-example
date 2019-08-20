@@ -12,8 +12,6 @@ namespace WebApi.Example.DependencyInjection
         public static void Configure(IServiceCollection services)
         {
             services.AddSingleton<IPersonBusiness, PersonBusiness>();
-
-            services.AddSingleton<IPersonRepository, PersonRepository>();
         }
     }
 }
