@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using WebApi.Example.Business.Interface;
 using WebApi.Example.Domain.Entity;
-using WebApi.Example.Interface.Repository;
+using WebApi.Example.Repository.Interface;
 
 namespace WebApi.Example.Business
 {
@@ -44,6 +43,6 @@ namespace WebApi.Example.Business
         {
             return _personRepository.Update(id, person);
         }
-        #endregion]
+        #endregion
     }
 }

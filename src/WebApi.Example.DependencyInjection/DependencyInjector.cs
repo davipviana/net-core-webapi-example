@@ -2,8 +2,8 @@
 using System;
 using WebApi.Example.Business;
 using WebApi.Example.Business.Interface;
-using WebApi.Example.Interface.Repository;
 using WebApi.Example.Repository;
+using WebApi.Example.Repository.Interface;
 
 namespace WebApi.Example.DependencyInjection
 {

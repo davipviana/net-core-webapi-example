@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebApi.Example.Interface.Repository\WebApi.Example.Interface.Repository.csproj" />
+    <ProjectReference Include="..\WebApi.Example.Repository.Interface\WebApi.Example.Repository.Interface.csproj" />
   </ItemGroup>
 
 </Project>

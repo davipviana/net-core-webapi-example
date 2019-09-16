@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApi.Example.Business.Interface\WebApi.Example.Business.Interface.csproj" />
-    <ProjectReference Include="..\WebApi.Example.Interface.Repository\WebApi.Example.Interface.Repository.csproj" />
+    <ProjectReference Include="..\WebApi.Example.Repository.Interface\WebApi.Example.Repository.Interface.csproj" />
   </ItemGroup>
 
 </Project>

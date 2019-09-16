@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using WebApi.Example.Domain.Entity;
-using WebApi.Example.Interface.Repository;
+using WebApi.Example.Repository.Interface;
 
 namespace WebApi.Example.Repository
 {
