@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Domain", "We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Repository", "WebApi.Example.Repository\WebApi.Example.Repository.csproj", "{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Interface.Business", "WebApi.Example.Interface.Business\WebApi.Example.Interface.Business.csproj", "{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Business", "WebApi.Example.Business\WebApi.Example.Business.csproj", "{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Business", "WebApi.Example.Business\WebApi.Example.Business.csproj", "{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Business.Interface", "WebApi.Example.Business.Interface\WebApi.Example.Business.Interface.csproj", "{CCE5F375-D5FA-42A0-9624-78CDF586995B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,14 +43,14 @@ Global
 		{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23213D49-D9A7-42DA-8E44-F8E4C158FBCC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11DEFA15-A09D-4840-8ED0-1CD10F3CE83F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE5F375-D5FA-42A0-9624-78CDF586995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE5F375-D5FA-42A0-9624-78CDF586995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE5F375-D5FA-42A0-9624-78CDF586995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE5F375-D5FA-42A0-9624-78CDF586995B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

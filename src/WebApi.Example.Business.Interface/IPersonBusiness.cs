@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using WebApi.Example.Domain.Entity;
 
-namespace WebApi.Example.Interface.Business
+namespace WebApi.Example.Business.Interface
 {
     public interface IPersonBusiness
     {

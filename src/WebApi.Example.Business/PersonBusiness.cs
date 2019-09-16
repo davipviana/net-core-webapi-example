@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using WebApi.Example.Business.Interface;
 using WebApi.Example.Domain.Entity;
-using WebApi.Example.Interface.Business;
 using WebApi.Example.Interface.Repository;
 
 namespace WebApi.Example.Business

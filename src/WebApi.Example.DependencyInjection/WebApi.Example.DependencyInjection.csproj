@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApi.Example.Business\WebApi.Example.Business.csproj" />
-    <ProjectReference Include="..\WebApi.Example.Interface.Business\WebApi.Example.Interface.Business.csproj" />
     <ProjectReference Include="..\WebApi.Example.Repository\WebApi.Example.Repository.csproj" />
   </ItemGroup>
 
