@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Repository",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Business", "WebApi.Example.Business\WebApi.Example.Business.csproj", "{BD6418D6-FE1C-4020-B86C-A79CD51B8ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Business.Interface", "WebApi.Example.Business.Interface\WebApi.Example.Business.Interface.csproj", "{CCE5F375-D5FA-42A0-9624-78CDF586995B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Business.Interface", "WebApi.Example.Business.Interface\WebApi.Example.Business.Interface.csproj", "{CCE5F375-D5FA-42A0-9624-78CDF586995B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Example.Repository.Interface", "WebApi.Example.Repository.Interface\WebApi.Example.Repository.Interface.csproj", "{64707E69-B954-4520-A1DA-B0EA63C7F1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Helper", "WebApi.Example.Helper\WebApi.Example.Helper.csproj", "{FB144012-0668-4741-8E67-FD42BAA43B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Example.Helper.Interface", "WebApi.Example.Helper.Interface\WebApi.Example.Helper.Interface.csproj", "{C0218BF4-1C6A-470C-B5AA-F50245141BB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{64707E69-B954-4520-A1DA-B0EA63C7F1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64707E69-B954-4520-A1DA-B0EA63C7F1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64707E69-B954-4520-A1DA-B0EA63C7F1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB144012-0668-4741-8E67-FD42BAA43B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB144012-0668-4741-8E67-FD42BAA43B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB144012-0668-4741-8E67-FD42BAA43B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB144012-0668-4741-8E67-FD42BAA43B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0218BF4-1C6A-470C-B5AA-F50245141BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0218BF4-1C6A-470C-B5AA-F50245141BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0218BF4-1C6A-470C-B5AA-F50245141BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0218BF4-1C6A-470C-B5AA-F50245141BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
