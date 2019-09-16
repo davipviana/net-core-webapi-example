@@ -12,6 +12,17 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApi.Example.DependencyInjection\WebApi.Example.DependencyInjection.csproj" />
+    <ProjectReference Include="..\WebApi.Example.Helper\WebApi.Example.Helper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\template.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
